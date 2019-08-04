@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SELEÇÃO FRONT-END</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Barlow:100,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css"
+      rel="stylesheet"
+    />
+    <script src="jquery/jquery-3.4.1.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 7rem;
+        text-align: center;
+      }
+      h2 {
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 100;
+      }
+      p,
+      li {
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 100;
+      }
+      ul {
+        list-style: none;
+        max-width: 70%;
+        margin: 0 auto;
+      }
+      h2 strong {
+        font-weight: bold;
+      }
+      i {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 45px;
+      }
+      span {
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hey Guys!</h1>
+    <h2>Sejam bem vindos ao nosso <strong>processo de seleção.</strong></h2>
+
+    <p>
+      Para você que pesquisou sobre nós, vai um mini desafio.
+      <strong>E isso pode colocar você a frente dos demais candidatos.</strong>
+    </p>
+    <i class="site"></i>
+    <br />
+    <br />
+    <ul>
+      <li>
+        - Faça uma função que rode no console do browser. Ela precisa retornar
+        dentro de um console, a quantidade exata de caracteres que nosso html
+        possui.
+      </li>
+      <li>- Descubra quais fontes estão sendo utilizadas</li>
+      <li>
+        - Com Jquery, crie um novo html que substituira os textos após nosso
+        icone de users.
+      </li>
+    </ul>
+    <br />
+    <span
+      >Quando chegar sua vez, na entrevista pessoal, mostre para nós o que fez e
+      como descobriu! Bem facinho não acha?</span>
+    
+    <script>
+      console.log("hello")
+      $(".site").html("")
+      $("h1").html("Olá recrutadores!");
+      $("h2").html("Aqui está a resposta do <b> desafio </b>");
+      $("p").html("Espero que a resposta esteja correta, caso não esteja estou disposta a refazer o teste. Sou iniciante na área e não estava familiarizada ainda com as funcionalidades do Jquery e então pesquisei sobre a ferramenta para resolução. As fontes utilizadas foram retiradas do <b>googleapis font-family Anton e barlow</b>");
+      $("li").html("Estou aqui para me candidatar para a vaga de estagiário(a)");
+      $("span").html("Ficarei muito grata com uma oportunidade.");
+    
+</script>
+</body>
+</html>
